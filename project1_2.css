@@ -1,0 +1,87 @@
+.text {
+color: #f15152;
+text-align:center;
+font-size:2.5vw;
+z-index:1;
+position:relative;
+font-family:American Typewriter;
+}
+.img{
+  z-index:10;
+  position:absolute;
+  
+}
+
+#prada{
+    width:35vw;
+    height:35vw;
+    margin-left:20vw;
+    margin-top:30vw;
+}
+#pradaoutline{
+    width:30vw;
+    height:30vw;
+    margin-left:2vw;
+    margin-top:50vw;
+
+}
+#butterfly{
+    width:21vw;
+    height:21vw;
+    margin-left:50vw;
+    margin-top:10vw;
+}
+#butterflyoutline{
+    width:20vw;
+    height:20vw;
+    margin-left:68vw;
+    margin-top:40vw;
+}
+#watch{
+    width:21vw;
+    height:21vw;
+    margin-left:50vw;
+    margin-top:90vw;
+}
+#watchoutline{
+    width:20vw;
+    height:20vw;
+    margin-left:70vw;
+    margin-top:114vw;
+}
+#coin{
+    width:21vw;
+    height:21vw;
+    margin-left:26vw;
+    margin-top:100vw;
+}
+#coinoutline{
+    width:20vw;
+    height:20vw;
+    margin-left:15vw;
+    margin-top:140vw;
+}
+#no{
+    width:21vw;
+    height:21vw;
+    margin-left:42vw;
+    margin-top:140vw;
+}
+#noouttline{
+    width:20vw;
+    height:20vw;
+    margin-left:64vw;
+    margin-top:164vw;
+}
+#heart{
+    width:21vw;
+    height:21vw;
+    margin-left:32vw;
+    margin-top:200vw;
+}
+#heartoutline{
+    width:20vw;
+    height:20vw;
+    margin-left:8vw;
+    margin-top:180vw;
+}

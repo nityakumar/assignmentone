@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <link rel="stylesheet" href="project1_2.css"> 
+            <script>
+                function allowDrop(ev) {
+                  ev.preventDefault();
+                }
+                
+                function drag(ev) {
+                  ev.dataTransfer.setData("text", ev.target.id);
+                }
+                
+                function drop(ev) {
+                  ev.preventDefault();
+                  var data = ev.dataTransfer.getData("text");
+                  ev.target.appendChild(document.getElementById(data)); 
+                }
+            </script>
+            
+        </head> 
+        <body background="background.png">
+          <div class="img">
+              <img src="prada.png" id="prada" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="pradaoutline.png" id="pradaoutline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+          <div class="img">
+            <img src="butterfly.png" id="butterfly" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="butterflyoutline.png" id="butterflyoutline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+          <div class="img">
+            <img src="watch.png" id="watch" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="watchoutline.png" id="watchoutline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+          <div class="img">
+            <img src="coin.png" id="coin" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="coinoutline.png" id="coinoutline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+          <div class="img">
+            <img src="no.png" id="no" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="noouttline.png" id="noouttline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+          <div class="img">
+            <img src="heart.png" id="heart" draggable="true" ondragstart="drag(event)" >
+          </div>
+          <div class="img">
+            <img src="heartoutline.png" id="heartoutline" ondrop="drop(event)" ondragover="allowDrop(event)">
+          </div>
+        
+          <div class="text">
+            <div class="text1">
+                <i><b>What No One Else Will Tell You<br> About Feminism <br><br> Lindy West</b></i>
+            </div>
+            <div class="text2">
+                Guess what you're a feminist
+            </div>
+            <div class="text3">
+                Feminism is not a radical movement or a fringe <br>movement or an embarrassment or a fraud.<br> Feminism is simple. The "patriarchy" does "exist."<br> To identify as a feminist is to acknowledge that<br> women are people, and, as such, women deserve<br> the same social, economic, and political rights<br> and opportunities as other styles of people<br> (i.e., men-people). To be a feminist is also to<br> acknowledge that the world is not, currently,<br> a fair and just and safe place for women <br>to exist. Because it is not. Obviously (see: <br>everything ever). To deny these things makes <br>you,at worst, a bad person who hates women<br>, including but not limited to: Sarah Michelle<br> Gellar, Jennifer Garner, Jennifer Aniston,<br> Jennifer Lopez, your mother, Jennifer Lopez's <br>mother, Jennifer Garner's Aunt Marcy, Michelle <br>Obama, Ellen DeGeneres, Cher, Julie Andrews,<br> Kim Kardashian, Khloe Kardashian, Kourtney<br> Kardashian, Kraken Kardashian, Karphone <br>Kardashian, Kickball Kardashian, Kornkob <br>Kardashian, and THE VIRGIN FUCKING MARY.<br><br> 
+            </div>    
+           
+            <div class="text4">
+                <b><i>Miranda: "How does it happen that four <br>such smart women have nothing to talk <br>about but boyfriends?"</i> </b><br><br>When its all over please get up and <br>leave<br><br> Question tell me how you fell about this<br><br> Try to control me, boy, you get dismissed<br><br> Pay my own fun,oh,and I pay my own <br>bills.<br><br>Always fifty fifty in relationships<br><br>
+            </div>
+            <div class="text5">
+                <i><b>Initial-Wave Feminism: Maybe You Could <br>Stop Raping Us, Please?</b></i><br><br>
+            </div>
+            <div class="text6">
+                After World War II, women started to be like, 'Oh!<br> Maybe I can get a Job and tell my husband to<br> stop raping me!' They began taking on subtler <br>forms of sexism and misogyny–things that<br>might not be legally mandated (like voting<br> rights) but were fucking up women's lives none-<br>theless. These women would become the sec-<br>ond-wavers. In 1963. Betty Friedman made every<br>one go crazy by suggesting that the nuclear family
+                 <br> might be a crock of shit that stifled wom-<br>en's potential and made them unhappy. Then<br>soooo many things happened!!! Birth control<br>pills. Illegalization of marital rape, The Equal <br> Rights Amendment did not pass. Women <br> continued to fight. because women are awesome. <br><br>
+             </div>
+             <div class="text9">
+                <b><i> Charlotte:'You Think I'm One of Those Women! One <br>of Those We Hate, Who Just Works Till She Gets Mar-<br>ried.'</i></b> <br><br> 'Cause I depend on me if I want it'<br> <br> The watch I'm wearin,' I've bought it<br><br>The house I live in, I've bought it.
+            </div>
+            <div class="text10">
+                Post-Feminism: Sexism Is Dead! Long <br>Live Sexism!<br><br>
+            </div>
+            <div class="text11">
+                Hhhhhh These dicks think that gender<br> inequality is over and we should all have a party<br>because Sex and the City 2 was super empower-<br>ing. Fuck these dicks. Or, rather don't. <br><br>
+            </div>
+            <div class="text12">
+                <b><i> Miranda: 'I Love How They Say, 'Until Recently, the<br> Bride.' Meaning She Quit Her Job Once She Found Her<br>Soulmate/Investment Banker.</i></b><br><br>
+                The shoes on my feet, I've bought it<br><br>The clothes I'm wearing, I've bought it<br> The rock I'm rockin, I've bought it.
+            </div>
+        </div>
+    
+        </body>
+    </html>
+ 
